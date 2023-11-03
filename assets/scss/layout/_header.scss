@@ -1,0 +1,30 @@
+header {
+    background-color: #82b440;
+    min-height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .container {
+        width: 76%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+
+        .row {
+
+            display: flex;
+            gap: 70px;
+
+            div {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
